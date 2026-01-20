@@ -155,16 +155,3 @@ Allowed Roles:
 - 400 Invalid State Transition
 
 ---
-
-## Project Structure
-
-app/
- ├── api/v1/routes/projects.py
- ├── models/
- ├── schemas/
- ├── services/
- └── core/permissions.py
-
-Rules:
-- No business logic in routes
-- Authorization handled via dependencies and services
